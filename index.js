@@ -8,7 +8,7 @@ const obtenerData = async () => {
 };
 
 const showDetail = async (characterUrl) => {
-  // console.log(character);
+  // console.log(cter);
   const response = await fetch(characterUrl);
   const data = await response.json();
   console.log("character", data);
